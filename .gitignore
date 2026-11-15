@@ -1,0 +1,65 @@
+# ==============================================================================
+# .gitignore - Escáner 3D LiDAR ESP32 & Aplicación PyQt6
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales de Python
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Distribución y empaquetado (PyInstaller, cx_Freeze, PyUpdate)
+build/
+dist/
+*.manifest
+*.spec
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de depuración y logs
+*.log
+*.tmp
+*.bak
+
+# Exportaciones temporales de nubes de puntos 3D (conservando estructura de carpeta)
+exports/*.ply
+exports/*.csv
+!exports/.gitkeep
+
+# Archivos específicos de Windows y macOS
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs y Editores de código
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Arduino y compilados de microcontroladores (ESP32)
+*.hex
+*.bin
+*.elf
+*.eep
+*.lss
+*.map
+*.srec
+.arduino15/

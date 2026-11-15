@@ -1,0 +1,30 @@
+{
+    "servos": {
+        "pan_min": 50,
+        "pan_max": 150,
+        "tilt_min": 63,
+        "tilt_max": 139,
+        "invert_pan": false,
+        "invert_tilt": false
+    },
+    "offsets": {
+        "pan_offset": 0.0,
+        "tilt_offset": 0.0,
+        "dist_offset_mm": 0.0
+    },
+    "geometry": {
+        "sensor_height_mm": 65.0
+    },
+    "scan": {
+        "resolution": 1.0
+    },
+    "connection": {
+        "baudrate": 115200,
+        "last_port": "COM13"
+    },
+    "sor_filter": {
+        "enabled_export": true,
+        "k_neighbors": 16,
+        "std_ratio": 1.5
+    }
+}
