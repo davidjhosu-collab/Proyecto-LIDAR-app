@@ -182,6 +182,25 @@ Proyecto LIDAR app/
 
 ---
 
+## Capturas de la Aplicación
+
+### Interfaz Principal y Funcionamiento
+![Funcionamiento General](assets/Funcionamiento.png)
+
+### Conexión de Puerto Serial (COM)
+![Selección de Puertos COM](assets/Elegir_puertos_com.png)
+
+### Calibración, Límites Mecánicos y Centro de Trabajo
+![Límites Mecánicos](assets/Limites_mecanicos.png)
+
+![Control de Posición](assets/Contro_de_posiciòn.png)
+
+![Centro de Trabajo](assets/Centro_de_trabajo.png)
+```
+
+---
+
 ## 📄 Licencia
 
 Este proyecto se distribuye bajo los términos de la Licencia MIT. Consulta el archivo correspondiente para más detalles.
+
